@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / Vite
+ui/node_modules/
+ui/dist/
+node_modules/
+
+# TS build artifacts (from composite project references)
+*.tsbuildinfo
+ui/vite.config.d.ts
+ui/vite.config.js
+
+# Legacy raw backup (large; kept locally only)
+listings.legacy.json
